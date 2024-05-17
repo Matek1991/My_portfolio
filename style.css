@@ -1,61 +1,173 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
 body {
-  background-color: black;
-}
-
-h1 {
+  background-color: #cfcece;
   color: white;
-  position: absolute;
-  top: 50px;
-  left: 25%;
-  font-size: 50px;
+  margin: 0;
 }
 
-h2 {
-  color: white;
-  position: absolute;
-  top: 120px;
-  left: 23%;
-  font-size: 35px;
-
-}
-
-.container {
-  width: 100%;
-  height: 500px;
-  background-image: url(images/background.jpg);
-  background-size: cover;
-}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
+  border: 1px solid #666;
+  background-color: #666;
 }
 
-li {
+ul li {
   float: left;
 }
 
-li a {
+ul li a {
   display: block;
-  color: #666;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+ul li a:hover:not(.active) {
   background-color: #ddd;
 }
 
-li a.active {
+ul li a.active {
+  background-color: green;
+}
+
+.jumbotron-container {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.jumbotron-container h1 {
+  font-size: 3rem;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu-item .link {
+  color: red;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu-item .link:hover {
+  color: #555;
+  background-color: #ccc;
+}
+
+.description {
+  margin-left: 20px;
+  color: #666;
+}
+
+footer {
+  background-color: #333;
   color: white;
-  background-color: #04AA6D;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.link:hover {
+  background-color: #f9f9f9;
+  border-color: black;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  margin-top: 10px;
+
+  color: black;
+  text-align: center;
+
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.project-link {
+  color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  margin-right: 20px;
+}
+
+.project-link:hover {
+  background-color: #f9f9f9;
+  border-color: black;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project,
+.about_me {
+  margin: 20px;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-buttons div {
+  margin-bottom: 20px;
+}
+
+.project-img,
+.about-img {
+  height: 400px;
+  width: 680px;
+}
+
+.welcome,
+.project-heading,
+.about-heading {
+  margin-left: 200px;
 }
