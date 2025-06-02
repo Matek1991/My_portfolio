@@ -48,7 +48,7 @@ It showcases both front-end and back-end projects I’ve worked on as part of my
 
 ---
 
-## ✅ Key Steps Completed Today
+## Steps Completed Today
 
 1. Opened the repository in **VS Code**
 2. Merged SEO branch
