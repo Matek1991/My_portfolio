@@ -1,10 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <meta name="keywords" content="web developer, web design, portfolio website, Edinburgh, projects">
-  <meta name="author" content="Mateusz Kondracki">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="keywords" content="web developer, web design, portfolio website, Edinburgh, projects" />
+  <meta name="author" content="Mateusz Kondracki" />
   <meta name="description" content="I am a student at Edinburgh College, currently studying HND Web Development. 
   Next year, I will continue my education at Edinburgh Napier University. 
   During my time at college, I have worked on many projects, including building websites, designing user interfaces, and writing professional documentation. 
@@ -13,35 +14,68 @@
   I have also learned about databases, teamwork, and how to manage projects using simple tools and methods. 
   This portfolio website shows the work my skills, which I have developed during my studies. 
   I am excited to keep learning at university and to start my future career as a web developer or web designer.
-  This page present information my projects, which I have done throughout my studies.">
+  This page present information my projects, which I have done throughout my studies." />
+
   <title>My portffolio</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
+  <!-- Navigation -->
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About Me</a></li>
     <li><a class="active" href="projects.html">My Projects</a></li>
   </ul>
-  <h1 class="project-heading">About My Projects</h1>
-  <p class="project">I'm currently working on several exciting projects, and I'm eager to share them with others. Each
-    project represents a unique journey of creativity and problem-solving. From web development to app creation, each
-    endeavor showcases my passion for innovation and dedication to mastering new skills. Stay tuned as I continue to
-    update this space with links to my latest projects, and join me on this journey of exploration and discovery.
+
+  <!-- Header -->
+  <h1 class="project-heading">Projects</h1>
+
+  <p class="project-intro">
+    Below are a few selected projects I’ve developed during my time at <strong>Edinburgh College</strong>. 
+    These range from static websites to complex backend applications, showcasing a mix of technical skill, creativity, and functionality.
   </p>
-  <img src="images/project.jpg" alt="project" class="project-img">"
+
+  <img src="images/project.jpg" alt="Project showcase image" class="project-img" />
+
   <div class="project-buttons">
-    <a href="https://matorganicme.com/" class="project-link"><h2>Organic ME</h2></a>
-    <p class="project-description">Organic ME is one of a project, which I made at college to pass Web Technologies 1:
-      HTML and CSS Unit.</p>
-    <a href="#" class="project-link">Project 2</a>
-    <p class="project-description">Lorem ipsum dolor sit amet.</p>
-    <a href="#" class="project-link">Project 3</a>
-    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+
+    <!-- Organic ME -->
+    <h2><a href="https://matorganicme.com/" class="project-link" target="_blank">Organic ME</a></h2>
+    <p class="project-description">
+      A responsive website built with <strong>HTML</strong> and <strong>CSS</strong> for the Web Technologies 1 unit. 
+      The project focused on semantic structure, mobile-first design, and natural branding.
+    </p>
+
+    <!-- Limelight Cinema -->
+    <h2><a href="http://webdev.edinburghcollege.ac.uk/HNCWEBMR20/MK(EC2115324)-LimelightCinema/" class="project-link">Limelight Cinema</a></h2>
+    <p class="project-description">
+      A fully functional movie booking website developed using <strong>PHP</strong>, <strong>MySQL</strong>, and <strong>JavaScript</strong>. 
+      Key features:
+    </p>
+    <ul>
+      <li>User registration and authentication</li>
+      <li>Interactive movie booking system</li>
+      <li>Admin panel for content management</li>
+      <li>Dynamic seat selection and real-time availability</li>
+    </ul>
+
+    <!-- Patty Valentine -->
+    <h2><a href="http://webdev.edinburghcollege.ac.uk/HNCWEBMR20/PattyValentine/" class="project-link">Patty Valentine</a></h2>
+    <p class="project-description">
+      An e-commerce website designed for an American diner. Built with <strong>PHP</strong> and <strong>MySQL</strong>, it includes:
+    </p>
+    <ul>
+      <li>Online menu and custom content management</li>
+      <li>Gift voucher purchase system</li>
+      <li>Integrated <strong>PayPal checkout</strong></li>
+      <li>Admin dashboard for managing users and promotions</li>
+    </ul>
+
   </div>
+
   <script src="script.js"></script>
+
   <footer>
     <p>&copy; 2024 Mateusz Kondracki</p>
   </footer>
